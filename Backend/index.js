@@ -7,5 +7,4 @@ app.use(express.json());
 
 app.use("/shorturl", shortUrlRouter);
 app.use("/", redirectRouter);
-app.listen(3000);
 module.exports = app;
